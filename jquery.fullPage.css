@@ -15,7 +15,7 @@ html.fp-enabled,
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 .fp-section {
-    position: relative;
+    position: flex;
     -webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */
     -moz-box-sizing: border-box; /* <=28 */
     box-sizing: border-box;
@@ -166,7 +166,7 @@ html.fp-enabled,
     height: 4px;
     width: 4px;
     border: 0;
-    background: #333;
+    background: #F4F4F4;
     left: 50%;
     top: 50%;
     margin: -2px 0 0 -2px;
@@ -185,13 +185,13 @@ html.fp-enabled,
     position: absolute;
     top: -2px;
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
     font-family: arial, helvetica, sans-serif;
     white-space: nowrap;
     max-width: 220px;
     overflow: hidden;
     display: block;
-    opacity: 0;
+    opacity: 0.8;
     width: 0;
     cursor: pointer;
 }

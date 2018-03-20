@@ -1,26 +1,26 @@
 $(document).ready(function(){
-  	$(window).scroll(function(){
-    var barra= $(window).scrollTop();
-    var posicion = barra * 0.5;
-    $('.parallax').css({
-        'background-position': '0 -' + posicion + 'px'
-    })
-  	})
-    $(window).scroll(function(){
-    if ($(window).scrollTop()) {
-    	$('nav').addClass('black');
-    }else{
-    	$('nav').removeClass('black')
-    }
-  })
-   $('#fullpage').fullpage({
+   $('#wrapper').fullpage({
 		//Navigation
 		navigation: true,
+    css3:true,
 		navigationPosition: 'right',
-		navigationTooltips: ['Inicio', 'About', 'Method','Contact'],
-		showActiveTooltip: true,
-		slidesNavigation: false,
-		slidesNavPosition: 'bottom',
-    verticalCentered:false
+    anchors: ['Inicio', 'About', 'Contact'],
+		showActiveTooltip: false,
+    verticalCentered: false,
+    menu: '#Opciones',
+    fixedElements: '#navbar',
 	}); 
-});
+  $("#about1").click(function() {
+    $("#about1").addClass('active');
+    $(".a1").removeClass('hide');
+    $("#skills").removeClass('active');
+    $(".s1").addClass('hide');
+  });
+    $("#skills").click(function() {
+    $("#skills").addClass('active');
+    $(".s1").removeClass('hide');
+    $("#about1").removeClass('active');
+    $(".a1").addClass('hide');
+  });
+    
+  });
