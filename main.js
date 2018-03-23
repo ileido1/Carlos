@@ -7,6 +7,7 @@ $(document).ready(function(){
     anchors: ['Inicio', 'About', 'Contact'],
 		showActiveTooltip: false,
     verticalCentered: false,
+    autoScrolling: true,
     menu: '#Opciones',
     fixedElements: '#navbar',
 	}); 
