@@ -16,5 +16,7 @@
 				$header.="Content-type: text/html; charset= UTF-8\r\n";
 				$header.="From: cl < cl@hernandez.com >\r\n";
 				$exito=mail($destino, $asunto, $texto,$header);
-				echo "1";	
+				if ($exito){
+					echo "1";	
+				}	
   ?>
