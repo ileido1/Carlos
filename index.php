@@ -104,8 +104,8 @@
                <form id="form" action="" method="">
                 <h1 class="hnosotros ">Contacto</h1>
                  <p class="colorS" style="text-align: left;">Conozca las tarifas y exponga sus requerimientos.</p>
+                 <div class="messages"></div>
                   <div class="form-row">
-                    <div class="messages"></div>
                     <div class="form-group col-md-6">
                       <input type="text" class="form-control" name="nombre" placeholder="Nombre u Organización">
                     </div>
