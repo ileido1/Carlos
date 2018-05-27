@@ -1,9 +1,9 @@
 <?php
  //localhost
- $db_host="localhost";
- $db_nombre="pagina_cl";
- $db_usuario="root";
- $db_pass="";
+ $db_host="ec2-54-204-39-46.compute-1.amazonaws.com";
+ $db_nombre="dc98c73fnddvdj";
+ $db_usuario="utfnfcxncrwovb";
+ $db_pass="4eebe20a593be964d4b5a584c38193acc4c005ee35ef81c76c2841dfeb64812d";
 
 //servidor
 //$db_host="localhost";
