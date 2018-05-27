@@ -92,7 +92,7 @@ display: none;
   text-align:center;
 }
 #contacto{
-  padding: 0 0 0 0;
+  padding: 6% 0 0 0;
   background: #212121;
   width: 100%;
   color: #F4F4F4 ;  
@@ -163,6 +163,9 @@ flex-flow: wrap;
 justify-content: center;
 
 }
+.spin{
+  display: none;
+}
 
 .subtiulo{
 font-size: 18px;
@@ -199,11 +202,26 @@ padding: 0 20px;
 
 .footer {
     background-color: #484848;
-    height: 40px;
+    height: 80px;
     padding-top: 10px;
     text-align: center;
     border-top: #16262a 1px solid;
   }
+  .social-links a{
+    color: white;
+    display: inline-block;
+    padding-right: 5px;
+  }
+
+  .social-links a:hover {
+    color: #FF6363;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
 
   .footer p{
     color: #FFFFFF;
